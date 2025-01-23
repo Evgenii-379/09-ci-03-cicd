@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+ 
+    <groupId>com.netology.app</groupId>
+    <artifactId>my-first-project</artifactId>
+    <packaging>jar</packaging>
+ 
+    <version>1.0-SNAPSHOT</version>
+     <repositories>
+        <repository>
+            <id>my-repo</id>
+            <name>maven-public</name>
+            <url>http://89.169.171.251:8081/repository/maven-public/</url>
+        </repository>
+      </repositories>
+      <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>netology</groupId>
+            <artifactId>java</artifactId>
+            <version>8_282</version>
+            <classifier>distrib</classifier>
+            <type>tar.gz</type>
+        </dependency>
+    </dependencies>
+ 
+    <distributionManagement>
+        <repository>
+            <id>my-repo</id>
+            <url>http://89.169.171.251:8081/repository/maven-public/</url>
+        </repository>
+        <snapshotRepository>
+            <id>my-repo</id>
+            <url>http://89.169.171.251:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+ 
+</project> 
