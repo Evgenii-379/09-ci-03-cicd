@@ -76,7 +76,9 @@ docker-compose.yml:
 - ![scrin](https://github.com/Evgenii-379/09-ci-03-cicd/blob/main/Снимок%20экрана%202025-01-23%20215333.png) 
 
 
-
+1. [pom.xml](https://github.com/Evgenii-379/09-ci-03-cicd/blob/main/pom.xml)
+2. [maven-metadata.xml 1](https://github.com/Evgenii-379/09-ci-03-cicd/blob/main/maven-metadata.xml%20%20%201)
+3. [maven-metadata.xml 2](https://github.com/Evgenii-379/09-ci-03-cicd/blob/main/maven-metadata.xml%20%202)
 
 
 
